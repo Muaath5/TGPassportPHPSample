@@ -1,0 +1,34 @@
+{
+    "name": "TGPassportPHPSample",
+    "description": "PHP Sample for Telegram Passport",
+    "repository": "https://github.com/TelegramMessenger/TGPassportPHPSample",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Bot token obtained via @BotFather",
+            "required": true
+        },
+        "BOT_PRIVATE_KEY": {
+            "description": "Bot private key for Telegram Passport encryption, Generated via openssl console",
+            "required": true
+        },
+        "BOT_PUBLIC_KEY": {
+            "description": "Bot public key for Telegram Passport encryption, Generated via openssl console",
+            "required": true
+        },
+        "HMAC_SECRET": {
+            "description": "Bot token obtained via @BotFather",
+            "required": true,
+            "generator": "secret"
+        },
+        "FILES_DIR_NAME": {
+            "value": "files",
+            "description": "Files directory name in your website",
+            "required": true
+        },
+        "BASE_DIR": {
+            "value": "passport",
+            "description": "Files directory that contains this repo",
+            "required": true
+        }
+    }
+}

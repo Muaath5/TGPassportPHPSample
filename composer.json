@@ -1,0 +1,10 @@
+{
+    "name": "telegram-messenger/tg-passport-php-sample",
+    "description": "PHP Sample for Telegram Passport",
+    "type": "project",
+    "license": "MIT",
+    "require": {},
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
+    }
+}
