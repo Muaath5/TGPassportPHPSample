@@ -7,6 +7,10 @@
             "description": "Bot token obtained via @BotFather",
             "required": true
         },
+        "BOT_USERNAME": {
+            "description": "Bot username, Without @",
+            "required": true
+        },
         "BOT_PRIVATE_KEY": {
             "description": "Bot private key for Telegram Passport encryption, Generated via openssl console",
             "required": true
@@ -28,7 +32,7 @@
         "BASE_DIR": {
             "value": "passport",
             "description": "Files directory that contains this repo",
-            "required": true
+            "required": false
         }
     }
 }
